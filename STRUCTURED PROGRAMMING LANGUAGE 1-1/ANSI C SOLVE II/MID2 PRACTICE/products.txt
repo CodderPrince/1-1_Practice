@@ -1,0 +1,15 @@
+Product: 1
+Product Code: 1
+Cost: $11.00
+Quantity: 111
+
+Product: 2
+Product Code: 2
+Cost: $22.00
+Quantity: 222
+
+Product: 3
+Product Code: 3
+Cost: $33.00
+Quantity: 333
+
