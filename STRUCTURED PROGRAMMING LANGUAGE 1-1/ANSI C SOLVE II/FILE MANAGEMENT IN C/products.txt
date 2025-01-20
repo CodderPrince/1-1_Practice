@@ -1,0 +1,20 @@
+Product Code: 101
+Cost: $100.00
+Quantity: 5
+
+Product Code: 102
+Cost: $42.00
+Quantity: 98
+
+Product Code: 1990511808
+Cost: $-0.00
+Quantity: -2
+
+Product Code: 6422280
+Cost: $1667561713931699600000000000000000.00
+Quantity: 4201216
+
+Product Code: 6422352
+Cost: $0.00
+Quantity: 4201216
+
