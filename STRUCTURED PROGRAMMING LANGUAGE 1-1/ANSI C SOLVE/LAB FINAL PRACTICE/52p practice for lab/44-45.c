@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int n, r, ncr = 0;
+    int x;
+    scanf("%d", &x);
+    for (n = 0; n < x; n++)
+    {
+        for (r = 0; r <= n; r++)
+        {
+            if (n == 0 || r == 0)
+            {
+                ncr = 1;
+                printf("%d ", ncr);
+            }
+            else
+            {
+                ncr = ncr * (n - r + 1) / r;
+                printf("%d ", ncr);
+            }
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+    return 0;
+}
