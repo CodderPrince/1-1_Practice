@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    int n, i, j;
+    scanf("%d", &n);
+    for(i=0; i<n; i++)
+        {
+        int m;
+        scanf("%d", &m);
+        int arr[m];
+        for(j=0; j<m; j++)
+        {
+            scanf("%d", &arr[j]);
+        }
+        printf("%d", arr[0]);
+    /*ekhane manually set kore dilam zero index print korar jonno karon ei way sara online judge accept kore na
+    ekhane 1 number array element print hobe ar porer condition theke array er 3,5,7 ebhabe array element print
+    hote thakbe karon majhe ekta kore element bad dite hobe*/
+        for(j=2; j<m; j= j+2)
+        {
+            printf(" %d", arr[j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
